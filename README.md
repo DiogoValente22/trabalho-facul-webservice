@@ -14,6 +14,11 @@ O usuário deverá ser reconhecido pelo seu nickname. Crie mais funcionalidades.
 Obrigatoriamente, nessa atividade, deve-se buscar a interoperabilidade da solução, por exemplo, servidor
 em C# e Cliente em Java.
 
+## rodando o trabalho
+- Para rodar o Trabalho é necessario ter em sua maquina instalado o PHP, composer e algum programa para rodar o banco de dados (apache, mysql workbench etc).
+- rodar os comandos:
+- "composer install" → "yarn run dev" → "php artisan migrate" e "php artisan serve"
+- 
 ## Preview do trabalho
 
 <img src="https://i.imgur.com/DBuQYqA.png">
