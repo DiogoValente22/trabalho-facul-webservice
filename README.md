@@ -1,6 +1,8 @@
+
 # Laravel RESTful API
 
 Trabalho da matéria de programação distribuida e concorrente para a faculdade
+
 
 ## Objetivo do trabalho
 
@@ -12,4 +14,7 @@ O usuário deverá ser reconhecido pelo seu nickname. Crie mais funcionalidades.
 Obrigatoriamente, nessa atividade, deve-se buscar a interoperabilidade da solução, por exemplo, servidor
 em C# e Cliente em Java.
 
+## Preview do trabalho
+
+<img src="https://i.imgur.com/DBuQYqA.png">
 
