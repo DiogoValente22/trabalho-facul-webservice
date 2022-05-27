@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Roboto";
+  list-style: none;
+  box-sizing: border-box;
+  background: #000;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #ae00ff, #a68eff);
+  border-radius: 10px;
+	-webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+  
+nav {
+  position: fixed;
+  z-index: 100;
+  height: 8vh;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav .nav-links ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .nav-links ul li {
+  padding: 0 4px;
+  list-style: none;
+}
+
+nav .nav-links ul li img {
+  transform: scale(0.45);
+}
+
+section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg img {
+  width: 110vw;
+  height: 110vh;
+  filter: brightness(0.6);
+}
+
+.rock1 {
+  position: absolute !important;
+  left: 10vw !important;
+  top: 20vh !important;
+}
+
+.rock1 img {
+  width: 40%;
+  filter: brightness(0.5);
+}
+
+.text h1 {
+  font-family: "AlphaCentauri" !important;
+  font-size: 5vw;
+  color: #fff;
+  letter-spacing: 20px;
+  position: absolute;
+  top: 15vh;
+  left: 37vw;
+}
+
+.earth img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 55vw;
+  top: 25vh;
+  z-index: 1;
+  filter: brightness(0.7);
+}
+
+.mid {
+  left: -150px !important;
+  bottom: -100px !important;
+  top: unset !important;
+}
+
+.mid img {
+  width: 100%;
+  z-index: 2;
+  left: -20px;
+  top: 20vh !important;
+  filter: brightness(0.8);
+}
+
+.fore {
+  right: -50px !important;
+  bottom: -200px !important;
+  top: 0px !important;
+  left: unset !important;
+}
+
+.fore img {
+  width: 400px;
+  height: 110vh;
+  z-index: 3;
+  filter: brightness(0.5);
+}
+
+
+#sectiontwo {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.rockbg1 {
+  position: absolute;
+  transform: scale(0.2);
+  filter: brightness(0.2);
+  top: 20vh;
+  left: 0;
+  z-index: 1;
+}
+
+.planet-links {
+  width: 95%;
+  height: 5vh;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.planet-links .swiper-pagination-bullet {
+  opacity: 0.2;
+  outline: none;
+}
+.planet-links .swiper-pagination-bullet-active {
+  color: #fff;
+  opacity: 1;
+}
+
+/* Form */
+.formkk {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 46vh;
+  text-align: center;
+  z-index: 99999!important;
+  width: 450px;
+  height: 320px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-login {
+  width: 80%;
+}
+
+.form-row {
+  display: flex!important;
+  flex-direction: column!important;
+  align-items: center!important;
+}
+
+.form-title {
+  font-family: "verdana" !important;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.form-group-name {
+  margin-bottom: 20px;
+}
+
+
+.form-login button {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 29px;
+  width: 50%;
+  border: none;
+  padding: 6px 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#apiInfos {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../img/bgteste.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#teste > img {
+  width: 110vw;
+  height: 110vh;
+  filter: brightness(0.6);
+  z-index: -1;
+}
+
+.signo-title {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  color: #fff;
+  font-size: 50px;
+  z-index: 999;
+}
+
+.signo-container {
+  display: flex;
+  z-index: 999;
+}
+.signo-image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signo-image img {
+  width: 400px;
+}
+.signo-image span {
+  padding-top: 2rem;
+  font-size: 50px;
+  color: #fff;
+}
+.signo-caracteristica {
+  width: 30%;
+}
+.signo-caracteristica p {
+  padding-top: 5rem;
+  color: #fff;
+  font-size: 22px;
+}
+
+.hidden {
+  display: none!important;
+}
+
+

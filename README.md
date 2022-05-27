@@ -1,15 +1,15 @@
 # Laravel RESTful API
 
-A simple example of how to create a RESTful API in Laravel 8.
+Trabalho da matéria de programação distribuida e concorrente para a faculdade
 
-## Endpoints
+## Objetivo do trabalho
 
-Get all posts: `GET /api/posts`
+Criar um sistema distribuído para gestão e consultas astrológicas utilizando Web Services. Essa “API”
+poderá ser consumida para informar um objeto com a mensagem do dia e outras informações a serem
+definidas pelo grupo, de acordo com o signo, por exemplo.
 
-Get a single post: `GET /api/posts/{id}`
+O usuário deverá ser reconhecido pelo seu nickname. Crie mais funcionalidades. Use a imaginação!!!
+Obrigatoriamente, nessa atividade, deve-se buscar a interoperabilidade da solução, por exemplo, servidor
+em C# e Cliente em Java.
 
-Create a new post: `POST /api/posts`
 
-Update a post: `PUT /api/posts/{id}`
-
-Delete a post: `DELETE /api/posts/{id}`
