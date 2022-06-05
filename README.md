@@ -1,7 +1,7 @@
 
 # Laravel RESTful API
 
-Trabalho da matéria de programação distribuida e concorrente para a faculdade
+Trabalho da matéria de programação distribuida e concorrente para a faculdade, feito em Laravel (PHP) e Javascript
 
 
 ## Objetivo do trabalho
